@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "foc-driver")(type "KiCad")(uri "${KIPRJMOD}/foc-driver.kicad_sym")(options "")(descr "FOC driver project symbols"))
+)

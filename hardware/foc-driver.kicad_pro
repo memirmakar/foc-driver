@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "filename": "foc-driver.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 2147483647,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "HV_Power",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(200, 30, 30)"
+      },
+      {
+        "name": "Gate_Power",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(224, 112, 0)"
+      },
+      {
+        "name": "LV_Power",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(180, 0, 110)"
+      },
+      {
+        "name": "Gate",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(160, 80, 0)"
+      },
+      {
+        "name": "PWM",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 80, 200)"
+      },
+      {
+        "name": "Current_Sense",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 140, 140)"
+      },
+      {
+        "name": "Analog",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(60, 140, 0)"
+      },
+      {
+        "name": "Safety",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(208, 0, 0)"
+      },
+      {
+        "name": "CAN",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(120, 40, 160)"
+      },
+      {
+        "name": "SPI_ENC",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 130, 60)"
+      },
+      {
+        "name": "SPI_EXT",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(90, 120, 0)"
+      },
+      {
+        "name": "ABI_HALL",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(140, 90, 0)"
+      },
+      {
+        "name": "ADC",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 140, 140)"
+      },
+      {
+        "name": "Debug",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6,
+        "line_style": 0,
+        "priority": 10,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(80, 80, 80)"
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "HV_Power",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "VIN_RAW"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "LS_SRC"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "PH*"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "MOT*"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "SW_*12V"
+      },
+      {
+        "netclass": "HV_Power",
+        "pattern": "BRK_RES*"
+      },
+      {
+        "netclass": "Gate_Power",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "Gate_Power",
+        "pattern": "GVDD"
+      },
+      {
+        "netclass": "Gate_Power",
+        "pattern": "GVDD_*"
+      },
+      {
+        "netclass": "Gate_Power",
+        "pattern": "*12V*"
+      },
+      {
+        "netclass": "LV_Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "LV_Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "LV_Power",
+        "pattern": "+3V3A"
+      },
+      {
+        "netclass": "LV_Power",
+        "pattern": "*5V*"
+      },
+      {
+        "netclass": "Gate",
+        "pattern": "GH*"
+      },
+      {
+        "netclass": "Gate",
+        "pattern": "GL*"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "PWM_*"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "BRK_PWM"
+      },
+      {
+        "netclass": "Current_Sense",
+        "pattern": "ISENSE_*"
+      },
+      {
+        "netclass": "Current_Sense",
+        "pattern": "IBUS_*"
+      },
+      {
+        "netclass": "Current_Sense",
+        "pattern": "ISA*"
+      },
+      {
+        "netclass": "Current_Sense",
+        "pattern": "ISB*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "VBUS_SENSE"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "NTC"
+      },
+      {
+        "netclass": "Safety",
+        "pattern": "ENABLE*"
+      },
+      {
+        "netclass": "Safety",
+        "pattern": "MCU_EN"
+      },
+      {
+        "netclass": "Safety",
+        "pattern": "GVDD_EN"
+      },
+      {
+        "netclass": "Safety",
+        "pattern": "AUX*"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN*"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "FDCAN*"
+      },
+      {
+        "netclass": "SPI_ENC",
+        "pattern": "ENC_*"
+      },
+      {
+        "netclass": "SPI_EXT",
+        "pattern": "EXT_*"
+      },
+      {
+        "netclass": "ABI_HALL",
+        "pattern": "ABI*"
+      },
+      {
+        "netclass": "ABI_HALL",
+        "pattern": "HALL*"
+      },
+      {
+        "netclass": "ABI_HALL",
+        "pattern": "J8_*"
+      },
+      {
+        "netclass": "ADC",
+        "pattern": "ADC_*"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "SWD*"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "SWO"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "NRST"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "UART_*"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "ADDR*"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "LED_*"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "GPIN*"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "OSC_*"
+      }
+    ]
+  },
+  "schematic": {
+    "drawing": {
+      "default_text_size": 50.0,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "meta": {
+      "version": 1
+    }
+  },
+  "sheets": [],
+  "text_variables": {},
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  }
+}

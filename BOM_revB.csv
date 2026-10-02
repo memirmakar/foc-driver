@@ -1,0 +1,57 @@
+﻿Ref,Parca,MPN,Adet,Birim USD (10 adet),Toplam USD,Fiyat kaynagi,Durum,Alternatif,Not
+U1,MCU,STM32G431RBT6,1,5.430,5.43,DigiKey (stok 6575); Farnell 4.79 EUR,DEGISTI (CBT6->RBT6),STM32G431CBT6 (pin yetmez),LQFP-64. 8 PWM + ABI/Hall + BKIN2 icin. Pin haritasi CubeMX'te yeniden yapilacak
+U2,Manyetik encoder,AS5047D-ATST-TSSOP14 (Infineon),1,6.800,6.80,DigiKey 1 adet fiyati (stok 4500),MPN GUNCELLENDI,AS5047P / MA732GQ-Z (dogruluk dusuk),"Artik Infineon markasiyla. Kart ALT yuzu, tam merkez"
+U3,3 faz gate driver #1,DRV8300DPWR,1,0.810,0.81,DigiKey (stok 6160); Ozdisan 0.47 USD talep,YENI (4x MIC4605 yerine),"DRV8353/DRV8350 (VDS korumali, degerlendirmede)",HB1+HB2 (A sargisi). Kanal C: yedek / opsiyonel chopper. Non-inverting INL
+U4,3 faz gate driver #2,DRV8300DPWR,1,0.810,0.81,DigiKey,YENI,DRV8353/DRV8350,HB3+HB4 (B sargisi). Kanal C yedek
+U5,Akim sense A,INA240A2D,1,2.850,2.85,DigiKey (stok 7317),"AYNI PARCA, TEDARIKCI DEGISTI",INA240A2PWR TSSOP (Farnell 2.24 EUR),HB1 cikisi in-line. REF1 -> 3.3VA (dijital 3V3 degil)
+U6,Akim sense B,INA240A2D,1,2.850,2.85,DigiKey,AYNI,INA240A2PWR,HB3 cikisi in-line
+U7,48V->12V buck (100V),LM5163DDAR,1,2.250,2.25,DigiKey (stok 0!),DEGISTI (LMR38010 80V abs max yetersiz),"LMR38010SDDAR (DK 2.22, stok 615) - sadece TVS revize edilirse",Sembol cizilecek. GVDD + 3.3V buck besler
+U8,12V->3.3V buck,LMR51430,1,2.210,2.21,BOM (EKOM) - DOGRULANMADI,AYNI,,~150 mA yuk; daha kucuk buck ile ucuzlatilabilir
+U9,CAN-FD transceiver,TJA1051T/3/2Z,1,1.230,1.23,DigiKey (stok 6793); Farnell /3/1J 1.14 EUR,AYNI,TJA1051T/3/1J,Bus pinleri +-58V toleransli
+U10,GVDD yuk anahtari (donanimsal ENABLE),ACIK - 20V+ yuk anahtari veya P-FET,1,0.400,0.40,TAHMIN,YENI,,ENABLE AND MCU_EN -> 12V GVDD keser -> UVLO ile tum FET'ler kapanir
+U11,AND kapisi,74LVC1G08,1,0.100,0.10,TAHMIN,YENI,,Harici ENABLE ve MCU_EN birlesimi -> U10
+Q1-Q8,Guc MOSFET,CSD19534Q5A,8,0.464,3.71,Ozdisan (stok 474); DigiKey 0.995 (stok 3),AYNI (adet 9->8),,100V 8.3mOhm SON5x6. Termal via tarlasi
+Q10,Ters polarite P-FET,ACIK - P-kanal >=100V,1,0.600,0.60,TAHMIN,ACIK,,Gate-source zener (D11) + seri direnc ZORUNLU (48V > Vgs max)
+Q11,Aux high-side cikis,ACIK - P-FET,1,0.400,0.40,TAHMIN,ACIK,,Mekanik tutucu fren / fan / solenoid. %100 DC (bootstrap yok)
+RS1,Shunt faz A,4 mOhm 1W 2512 %1,1,0.900,0.90,BOM tahmini,AYNI,2 mOhm (+-16.5A),Kelvin baglanti
+RS2,Shunt faz B,4 mOhm 1W 2512 %1,1,0.900,0.90,BOM tahmini,AYNI,2 mOhm,Kelvin baglanti
+RS3,Bara donus shunt (low-side),2-3 mOhm 2512,1,0.900,0.90,TAHMIN,YENI,,Tum alt FET source'lari -> RS3 -> GND. G431 OPAMP PGA -> COMP -> TIM1_BKIN. Kisa devre/shoot-through korumasi
+C_BULK,Bara bulk,ACIK - 100V low-ESR elektrolitik/hibrit,2,1.000,2.00,TAHMIN,DEGISTI (63V -> 100V),,Ripple akimi hesabi yapilacak. Toplam kapasite azaltilmayacak
+C_HB,Yarim kopru lokal MLCC,2.2uF 100V X7R 1210,8,0.250,2.00,TAHMIN,YENI (BOM'da aciktan yoktu),,"Her bacakta 2 adet, ust FET drain - alt FET source arasi, minimum dongu"
+C_BST,Bootstrap,1uF 25V X7R 0603,4,0.030,0.12,TAHMIN,YENI,0.47uF,"BSTx-SHx, driver pinine yakin"
+C_GVDD,Driver besleme,10uF 25V X7R 0805,2,0.080,0.16,TAHMIN,YENI,,"Her DRV8300 GVDD-GND, >=10uF datasheet sarti"
+D1,Bara TVS,SMCJ54A,1,0.400,0.40,TAHMIN,DEGISTI (SMBJ58A),,Kistirma 80-90V'a dayanir; asil OV korumasi firmware + kapasite
+D2-D9,Gate turn-off diyot,BAT54 / 1N4148W,8,0.050,0.40,BOM tahmini,AYNI,,10 Ohm ile seri
+D10,Aux cikis flyback,SS110 / S1B,1,0.150,0.15,BOM tahmini,AYNI,,Fren bobini icin
+D11,Q10 gate zener,12-15V zener SOD-323,1,0.030,0.03,TAHMIN,YENI,,
+D12,CAN ESD,PESD2CANFD,1,0.300,0.30,TAHMIN,YENI,,
+R_GON,Gate turn-on,33 Ohm 0603,8,0.010,0.08,BOM tahmini,AYNI,,Bring-up'ta ayarlanacak
+R_GOFF,Gate turn-off,10 Ohm 0603,8,0.010,0.08,BOM tahmini,AYNI,,Turn-off < 150 ns olmali (DRV8300 min dead-time)
+R_CANT,CAN split terminasyon,60.4 Ohm 0805 x2 + 4.7nF + jumper,1,0.200,0.20,TAHMIN,YENI,,Zincirin son kartinda takilir
+Y1,Kristal 24MHz,ECS-240-12-37B-CKY-TR,1,0.800,0.80,BOM tahmini,AYNI,,C=15pF
+FB1,Ferrit,120R 0603,1,0.100,0.10,BOM tahmini,AYNI,,3.3VA / encoder besleme
+RT1,NTC,10k NTC 0805,1,0.250,0.25,BOM tahmini,AYNI,,FET bakirina yakin
+SW1,Reset butonu,SMD tact switch,1,0.200,0.20,TAHMIN,DEGISTI (BOOT SPDT kaldirildi),,NRST. BOOT0 option byte ile (nSWBOOT0=0)
+SW2,CAN adres,4'lu DIP veya direnc merdiveni,1,0.600,0.60,BOM tahmini,AYNI,,
+LED1-2,Durum/hata LED,0603 yesil+kirmizi,2,0.060,0.12,BOM tahmini,AYNI,,
+J1,Guc+CAN giris,ACIK 4 pin,1,1.200,1.20,BOM tahmini,ACIK,,48V GND CANH CANL. Akim: zincirdeki toplam kart akimi
+J2,Guc+CAN cikis,ACIK 4 pin,1,1.200,1.20,BOM tahmini,ACIK,,Papatya dizimi
+J3,Motor,ACIK 4 pin,1,1.000,1.00,BOM tahmini,ACIK,,A+ A- B+ B- (BLDC: U V W)
+J4,Harici SPI encoder,6 pin,1,0.600,0.60,BOM tahmini,AYNI,,3V3 GND SPI2
+J6,ENABLE + GPIO,5 pin,1,0.600,0.60,BOM tahmini,AYNI,,ENABLE -> U11 + TIM1_BKIN2
+J7,SWD,Tag-Connect veya 2x5 1.27mm,1,0.500,0.50,BOM tahmini,AYNI,,
+J8,ABI encoder / Hall,5 pin,1,0.500,0.50,TAHMIN,YENI,,"5V GND CH1 CH2 CH3 (A/B/Z veya U/V/W). Seri R + klemp, secilebilir pull-up"
+PASIF,"Genel R/C (decoupling, bolucu, pull-down, RC)",0402/0603,90,0.020,1.80,BOM tahmini,AYNI,,PWM ve enable hatlarina pull-down dahil
+
+,,,,KOMPONENT TOPLAM,48.54,,,,
+,,,,PCB 4 katman (5 adet siparis),~7.00,,,,
+,,,,KART BASINA,55.54,,,,
+
+KALDIRILANLAR
+Ref,Parca,Neden
+U3-U6 (eski),MIC4605-1YM x4,Yanlis varyant (-1 = HI/LI). 2x DRV8300 ile degistirildi
+U11 (eski),UCC27517DBVR,Fren chopper kaldirildi
+Q9,CSD19534Q5A (chopper),Fren chopper kaldirildi
+J5,Fren direnci konnektoru,Fren chopper kaldirildi
+SW1 (eski),SW_SPDT BOOT,PB8/CAN RX ile cakisir; nSWBOOT0 kullaniliyor
+D1 (eski),SMBJ58A,SMCJ54A ile degisti

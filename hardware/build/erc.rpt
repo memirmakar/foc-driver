@@ -1,0 +1,813 @@
+ERC report (2026-10-03T00:39:32, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_issues]: The symbol library 'Connector' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector.kicad_sym'
+    ; warning
+    @(40.64 mm, 60.96 mm): Symbol J7 [Conn_ARM_JTAG_SWD_10]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(40.64 mm, 78.74 mm): Symbol #PWRMCU020 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(43.18 mm, 142.24 mm): Symbol R1 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(43.18 mm, 154.94 mm): Symbol R2 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(43.18 mm, 196.85 mm): Symbol R3 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(43.18 mm, 207.01 mm): Symbol R4 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Connector' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector.kicad_sym'
+    ; warning
+    @(45.72 mm, 172.72 mm): Symbol TP1 [TestPoint]
+[lib_symbol_issues]: The symbol library 'Switch' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Switch.kicad_sym'
+    ; warning
+    @(50.80 mm, 106.68 mm): Symbol SW2 [SW_DIP_x04]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(50.80 mm, 144.78 mm): Symbol C1 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(50.80 mm, 147.32 mm): Symbol #PWRMCU023 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(50.80 mm, 157.48 mm): Symbol C2 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(50.80 mm, 160.02 mm): Symbol #PWRMCU024 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(50.80 mm, 196.85 mm): Symbol LED1 [LED_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(50.80 mm, 207.01 mm): Symbol LED2 [LED_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(55.88 mm, 196.85 mm): Symbol #PWRMCU025 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(55.88 mm, 207.01 mm): Symbol #PWRMCU026 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(60.96 mm, 109.22 mm): Symbol #PWRMCU022 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(78.74 mm, 63.50 mm): Symbol #PWRMCU021 [GND]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(86.36 mm, 60.96 mm): Symbol J10 [Conn_01x03]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(152.40 mm, 81.28 mm): Symbol C3 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(152.40 mm, 83.82 mm): Symbol #PWRMCU012 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(152.40 mm, 104.14 mm): Symbol C4 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(152.40 mm, 106.68 mm): Symbol #PWRMCU015 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(160.02 mm, 78.74 mm): Symbol Y1 [Crystal_GND24_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(160.02 mm, 81.28 mm): Symbol #PWRMCU014 [GND]
+[lib_symbol_issues]: The symbol library 'Switch' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Switch.kicad_sym'
+    ; warning
+    @(162.56 mm, 106.68 mm): Symbol SW1 [SW_Push]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(162.56 mm, 111.76 mm): Symbol #PWRMCU016 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(165.10 mm, 60.96 mm): Symbol C5 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(165.10 mm, 63.50 mm): Symbol #PWRMCU006 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(167.64 mm, 81.28 mm): Symbol C6 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(167.64 mm, 83.82 mm): Symbol #PWRMCU013 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(175.26 mm, 60.96 mm): Symbol C7 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(175.26 mm, 63.50 mm): Symbol #PWRMCU005 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(185.42 mm, 60.96 mm): Symbol C8 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(185.42 mm, 63.50 mm): Symbol #PWRMCU004 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(195.58 mm, 60.96 mm): Symbol C9 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(195.58 mm, 63.50 mm): Symbol #PWRMCU003 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(205.74 mm, 60.96 mm): Symbol C10 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(205.74 mm, 63.50 mm): Symbol #PWRMCU002 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(228.60 mm, 165.10 mm): Symbol #PWRMCU011 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(248.92 mm, 60.96 mm): Symbol C11 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(248.92 mm, 63.50 mm): Symbol #PWRMCU008 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(259.08 mm, 60.96 mm): Symbol C12 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(259.08 mm, 63.50 mm): Symbol #PWRMCU009 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(269.24 mm, 60.96 mm): Symbol C13 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(269.24 mm, 63.50 mm): Symbol #PWRMCU010 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(307.34 mm, 86.36 mm): Symbol RN1 [R_Pack04]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(307.34 mm, 106.68 mm): Symbol RN2 [R_Pack04]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(314.96 mm, 88.90 mm): Symbol #PWRMCU017 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(314.96 mm, 109.22 mm): Symbol #PWRMCU018 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(22.86 mm, 127.00 mm): Symbol C19 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(22.86 mm, 129.54 mm): Symbol #PWRPSU030 [GND]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(25.40 mm, 50.80 mm): Symbol J1 [Conn_01x04]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(25.40 mm, 71.12 mm): Symbol J2 [Conn_01x04]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(33.02 mm, 55.88 mm): Symbol #PWRPSU001 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(33.02 mm, 76.20 mm): Symbol #PWRPSU002 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(35.56 mm, 127.00 mm): Symbol C20 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(35.56 mm, 129.54 mm): Symbol #PWRPSU029 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(43.18 mm, 58.42 mm): Symbol #FLGPSU02 [PWR_FLAG]
+[lib_symbol_issues]: The symbol library 'Regulator_Switching' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Regulator_Switching.kicad_sym'
+    ; warning
+    @(60.96 mm, 127.00 mm): Symbol U8 [LMR51430]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(60.96 mm, 134.62 mm): Symbol #PWRPSU031 [GND]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(68.58 mm, 45.72 mm): Symbol Q10 [Q_PMOS_GSD]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(68.58 mm, 55.88 mm): Symbol R11 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(68.58 mm, 58.42 mm): Symbol #PWRPSU003 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(71.12 mm, 53.34 mm): Symbol D11 [D_Zener_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(76.20 mm, 119.38 mm): Symbol C21 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(81.28 mm, 45.72 mm): Symbol D1 [D_Zener_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(81.28 mm, 48.26 mm): Symbol #PWRPSU004 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(86.36 mm, 127.00 mm): Symbol L2 [L_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(93.98 mm, 132.08 mm): Symbol R12 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(93.98 mm, 139.70 mm): Symbol R13 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(93.98 mm, 142.24 mm): Symbol #PWRPSU032 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(96.52 mm, 45.72 mm): Symbol C22 [C_Polarized_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(96.52 mm, 48.26 mm): Symbol #PWRPSU005 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(96.52 mm, 68.58 mm): Symbol R14 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(96.52 mm, 73.66 mm): Symbol R15 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(96.52 mm, 76.20 mm): Symbol #PWRPSU009 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(101.60 mm, 129.54 mm): Symbol C23 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(101.60 mm, 132.08 mm): Symbol #PWRPSU033 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(106.68 mm, 43.18 mm): Symbol #FLGPSU16 [PWR_FLAG]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(109.22 mm, 73.66 mm): Symbol C24 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(109.22 mm, 76.20 mm): Symbol #PWRPSU010 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(114.30 mm, 45.72 mm): Symbol C25 [C_Polarized_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(114.30 mm, 48.26 mm): Symbol #PWRPSU006 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(114.30 mm, 129.54 mm): Symbol C26 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(114.30 mm, 132.08 mm): Symbol #PWRPSU034 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(129.54 mm, 129.54 mm): Symbol #FLGPSU80 [PWR_FLAG]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(149.86 mm, 58.42 mm): Symbol C27 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(149.86 mm, 60.96 mm): Symbol #PWRPSU013 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(157.48 mm, 127.00 mm): Symbol C28 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(157.48 mm, 129.54 mm): Symbol #PWRPSU037 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(165.10 mm, 58.42 mm): Symbol C29 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(165.10 mm, 60.96 mm): Symbol #PWRPSU012 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(175.26 mm, 63.50 mm): Symbol R16 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(175.26 mm, 66.04 mm): Symbol #PWRPSU014 [GND]
+[lib_symbol_issues]: The symbol library 'Regulator_Linear' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Regulator_Linear.kicad_sym'
+    ; warning
+    @(175.26 mm, 127.00 mm): Symbol U12 [AP2112K-3.3]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(175.26 mm, 134.62 mm): Symbol #PWRPSU038 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(187.96 mm, 127.00 mm): Symbol C30 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(187.96 mm, 129.54 mm): Symbol #PWRPSU039 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(193.04 mm, 68.58 mm): Symbol #PWRPSU015 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(203.20 mm, 124.46 mm): Symbol FB1 [FerriteBead_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(210.82 mm, 127.00 mm): Symbol C31 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(210.82 mm, 129.54 mm): Symbol #PWRPSU041 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(213.36 mm, 50.80 mm): Symbol C32 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(220.98 mm, 127.00 mm): Symbol C33 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(220.98 mm, 129.54 mm): Symbol #PWRPSU042 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(223.52 mm, 58.42 mm): Symbol L1 [L_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(223.52 mm, 66.04 mm): Symbol R17 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(228.60 mm, 71.12 mm): Symbol C34 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(233.68 mm, 66.04 mm): Symbol C35 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(243.84 mm, 68.58 mm): Symbol R18 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(243.84 mm, 76.20 mm): Symbol R19 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(243.84 mm, 78.74 mm): Symbol #PWRPSU016 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(254.00 mm, 60.96 mm): Symbol C36 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(254.00 mm, 63.50 mm): Symbol #PWRPSU017 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(261.62 mm, 60.96 mm): Symbol #FLGPSU43 [PWR_FLAG]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(297.18 mm, 76.20 mm): Symbol R20 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(297.18 mm, 78.74 mm): Symbol #PWRPSU027 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(304.80 mm, 55.88 mm): Symbol C37 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(304.80 mm, 58.42 mm): Symbol #PWRPSU025 [GND]
+[lib_symbol_issues]: The symbol library '74xGxx' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/74xGxx.kicad_sym'
+    ; warning
+    @(317.50 mm, 68.58 mm): Symbol U11 [74LVC1G08]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(317.50 mm, 78.74 mm): Symbol #PWRPSU026 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(337.82 mm, 53.34 mm): Symbol R21 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(345.44 mm, 50.80 mm): Symbol Q12 [Q_PMOS_GSD]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(345.44 mm, 73.66 mm): Symbol R22 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(345.44 mm, 76.20 mm): Symbol #PWRPSU023 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(350.52 mm, 58.42 mm): Symbol R23 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(355.60 mm, 68.58 mm): Symbol Q13 [2N7002]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(358.14 mm, 73.66 mm): Symbol #PWRPSU022 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(363.22 mm, 50.80 mm): Symbol R24 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(363.22 mm, 53.34 mm): Symbol #PWRPSU021 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(378.46 mm, 50.80 mm): Symbol #FLGPSU47 [PWR_FLAG]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(30.48 mm, 46.99 mm): Symbol C38 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(30.48 mm, 49.53 mm): Symbol #PWRPST004 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(30.48 mm, 120.65 mm): Symbol C39 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(30.48 mm, 123.19 mm): Symbol #PWRPST009 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(40.64 mm, 46.99 mm): Symbol C40 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(40.64 mm, 49.53 mm): Symbol #PWRPST003 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(40.64 mm, 74.93 mm): Symbol #PWRPST001 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(40.64 mm, 120.65 mm): Symbol C41 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(40.64 mm, 123.19 mm): Symbol #PWRPST008 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(40.64 mm, 148.59 mm): Symbol #PWRPST006 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(55.88 mm, 95.25 mm): Symbol #PWRPST005 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(55.88 mm, 168.91 mm): Symbol #PWRPST010 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(78.74 mm, 59.69 mm): Symbol C42 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(78.74 mm, 72.39 mm): Symbol C43 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(78.74 mm, 133.35 mm): Symbol C44 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(78.74 mm, 146.05 mm): Symbol C45 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(127.00 mm, 63.50 mm): Symbol D2 [D_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(127.00 mm, 101.60 mm): Symbol D3 [D_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(127.00 mm, 144.78 mm): Symbol D6 [D_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(127.00 mm, 182.88 mm): Symbol D7 [D_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(129.54 mm, 58.42 mm): Symbol R25 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(129.54 mm, 96.52 mm): Symbol R26 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(129.54 mm, 139.70 mm): Symbol R27 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(129.54 mm, 177.80 mm): Symbol R28 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(134.62 mm, 63.50 mm): Symbol R29 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(134.62 mm, 101.60 mm): Symbol R30 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(134.62 mm, 144.78 mm): Symbol R31 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(134.62 mm, 182.88 mm): Symbol R32 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(144.78 mm, 58.42 mm): Symbol Q1 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(144.78 mm, 96.52 mm): Symbol Q2 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(144.78 mm, 139.70 mm): Symbol Q5 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(144.78 mm, 177.80 mm): Symbol Q6 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(162.56 mm, 78.74 mm): Symbol RS1 [R_Shunt]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(162.56 mm, 160.02 mm): Symbol RS2 [R_Shunt]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(175.26 mm, 66.04 mm): Symbol #PWRPST014 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(175.26 mm, 147.32 mm): Symbol #PWRPST022 [GND]
+[lib_symbol_issues]: The symbol library 'Amplifier_Current' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Amplifier_Current.kicad_sym'
+    ; warning
+    @(177.80 mm, 55.88 mm): Symbol U5 [INA240A2D]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(177.80 mm, 93.98 mm): Symbol C46 [C_Small]
+[lib_symbol_issues]: The symbol library 'Amplifier_Current' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Amplifier_Current.kicad_sym'
+    ; warning
+    @(177.80 mm, 137.16 mm): Symbol U6 [INA240A2D]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(177.80 mm, 175.26 mm): Symbol C47 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(182.88 mm, 93.98 mm): Symbol C48 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(182.88 mm, 175.26 mm): Symbol C49 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(190.50 mm, 45.72 mm): Symbol C50 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(190.50 mm, 48.26 mm): Symbol #PWRPST013 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(190.50 mm, 127.00 mm): Symbol C51 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(190.50 mm, 129.54 mm): Symbol #PWRPST021 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(223.52 mm, 63.50 mm): Symbol D4 [D_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(223.52 mm, 101.60 mm): Symbol D5 [D_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(223.52 mm, 144.78 mm): Symbol D8 [D_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(223.52 mm, 182.88 mm): Symbol D9 [D_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(226.06 mm, 58.42 mm): Symbol R33 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(226.06 mm, 96.52 mm): Symbol R34 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(226.06 mm, 139.70 mm): Symbol R35 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(226.06 mm, 177.80 mm): Symbol R36 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(231.14 mm, 63.50 mm): Symbol R37 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(231.14 mm, 101.60 mm): Symbol R38 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(231.14 mm, 144.78 mm): Symbol R39 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(231.14 mm, 182.88 mm): Symbol R40 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(241.30 mm, 58.42 mm): Symbol Q3 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(241.30 mm, 96.52 mm): Symbol Q4 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(241.30 mm, 139.70 mm): Symbol Q7 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(241.30 mm, 177.80 mm): Symbol Q8 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(274.32 mm, 93.98 mm): Symbol C52 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(274.32 mm, 175.26 mm): Symbol C53 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(279.40 mm, 93.98 mm): Symbol C54 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(279.40 mm, 175.26 mm): Symbol C55 [C_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(317.50 mm, 60.96 mm): Symbol RS3 [R_Shunt]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(317.50 mm, 66.04 mm): Symbol #PWRPST027 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(320.04 mm, 102.87 mm): Symbol R41 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(320.04 mm, 109.22 mm): Symbol RT1 [Thermistor_NTC]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(320.04 mm, 113.03 mm): Symbol #PWRPST032 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(325.12 mm, 63.50 mm): Symbol #PWRPST028 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(327.66 mm, 58.42 mm): Symbol R42 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(335.28 mm, 60.96 mm): Symbol C56 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(335.28 mm, 63.50 mm): Symbol #PWRPST029 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(335.28 mm, 107.95 mm): Symbol C57 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(335.28 mm, 110.49 mm): Symbol #PWRPST031 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(373.38 mm, 104.14 mm): Symbol R43 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(383.54 mm, 104.14 mm): Symbol Q9 [CSD19534Q5A]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(393.70 mm, 55.88 mm): Symbol J3 [Conn_01x04]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(401.32 mm, 91.44 mm): Symbol J9 [Conn_01x02]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(27.94 mm, 71.12 mm): Symbol C14 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(27.94 mm, 73.66 mm): Symbol #PWRIF003 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(35.56 mm, 71.12 mm): Symbol #PWRIF001 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(40.64 mm, 88.90 mm): Symbol R5 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(45.72 mm, 93.98 mm): Symbol C15 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(45.72 mm, 96.52 mm): Symbol #PWRIF008 [GND]
+[lib_symbol_issues]: The symbol library 'Interface_CAN_LIN' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Interface_CAN_LIN.kicad_sym'
+    ; warning
+    @(50.80 mm, 66.04 mm): Symbol U9 [TJA1051T-3]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(50.80 mm, 76.20 mm): Symbol #PWRIF006 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(50.80 mm, 88.90 mm): Symbol R6 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Jumper' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Jumper.kicad_sym'
+    ; warning
+    @(60.96 mm, 88.90 mm): Symbol JP1 [Jumper_2_Open]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(66.04 mm, 53.34 mm): Symbol C16 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(66.04 mm, 55.88 mm): Symbol #PWRIF005 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(71.12 mm, 127.00 mm): Symbol RN3 [R_Pack04]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(83.82 mm, 132.08 mm): Symbol #PWRIF010 [GND]
+[lib_symbol_issues]: The symbol library 'Power_Protection' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Power_Protection.kicad_sym'
+    ; warning
+    @(86.36 mm, 68.58 mm): Symbol D12 [NUP2105L]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(86.36 mm, 73.66 mm): Symbol #PWRIF007 [GND]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(91.44 mm, 124.46 mm): Symbol J4 [Conn_01x06]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(144.78 mm, 73.66 mm): Symbol #PWRIF011 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(153.67 mm, 144.78 mm): Symbol R7 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(153.67 mm, 147.32 mm): Symbol #PWRIF019 [GND]
+[lib_symbol_issues]: The symbol library 'Sensor_Magnetic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Sensor_Magnetic.kicad_sym'
+    ; warning
+    @(160.02 mm, 66.04 mm): Symbol U2 [AS5047D]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(160.02 mm, 78.74 mm): Symbol #PWRIF016 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(168.91 mm, 127.00 mm): Symbol RN6 [R_Pack04]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(177.80 mm, 50.80 mm): Symbol C17 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(177.80 mm, 53.34 mm): Symbol #PWRIF014 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(181.61 mm, 129.54 mm): Symbol #PWRIF018 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(187.96 mm, 50.80 mm): Symbol C18 [C_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(187.96 mm, 53.34 mm): Symbol #PWRIF015 [GND]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(189.23 mm, 124.46 mm): Symbol J6 [Conn_01x05]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(220.98 mm, 48.26 mm): Symbol #PWRIF023 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(220.98 mm, 63.50 mm): Symbol #PWRIF025 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(220.98 mm, 78.74 mm): Symbol #PWRIF027 [GND]
+[lib_symbol_issues]: The symbol library 'Diode' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Diode.kicad_sym'
+    ; warning
+    @(231.14 mm, 48.26 mm): Symbol D14 [BAT54S]
+[lib_symbol_issues]: The symbol library 'Diode' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Diode.kicad_sym'
+    ; warning
+    @(231.14 mm, 63.50 mm): Symbol D15 [BAT54S]
+[lib_symbol_issues]: The symbol library 'Diode' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Diode.kicad_sym'
+    ; warning
+    @(231.14 mm, 78.74 mm): Symbol D16 [BAT54S]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(233.68 mm, 149.86 mm): Symbol R8 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(233.68 mm, 152.40 mm): Symbol #PWRIF031 [GND]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(243.84 mm, 144.78 mm): Symbol Q14 [BSS123]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(246.38 mm, 149.86 mm): Symbol #PWRIF030 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(254.00 mm, 134.62 mm): Symbol R9 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(264.16 mm, 129.54 mm): Symbol D13 [D_Zener_Small]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(271.78 mm, 129.54 mm): Symbol R10 [R_Small_US]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(281.94 mm, 71.12 mm): Symbol RN4 [R_Pack04]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(281.94 mm, 88.90 mm): Symbol RN5 [R_Pack04]
+[lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Transistor_FET.kicad_sym'
+    ; warning
+    @(284.48 mm, 134.62 mm): Symbol Q11 [Q_PMOS_GSD]
+[lib_symbol_issues]: The symbol library 'Jumper' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Jumper.kicad_sym'
+    ; warning
+    @(297.18 mm, 83.82 mm): Symbol JP2 [SolderJumper_2_Open]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(297.18 mm, 149.86 mm): Symbol D10 [D_Small]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(297.18 mm, 152.40 mm): Symbol #PWRIF032 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(304.80 mm, 53.34 mm): Symbol #PWRIF021 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(304.80 mm, 147.32 mm): Symbol #PWRIF033 [GND]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(312.42 mm, 48.26 mm): Symbol J8 [Conn_01x05]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/home/memro/.backplane-bend/kicad/10.0.6/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(312.42 mm, 144.78 mm): Symbol J5 [Conn_01x02]
+
+***** Sheet /Power Supply/
+
+***** Sheet /Power Stage/
+
+***** Sheet /Interfaces/
+
+ ** ERC messages: 265  Errors 0  Warnings 265
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

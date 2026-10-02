@@ -1,0 +1,7 @@
+.backplane/
+__pycache__/
+*.pyc
+datasheets/*.txt
+hardware/*-backups/
+hardware/fp-info-cache
+hardware/~*.lck
