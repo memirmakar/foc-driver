@@ -32,7 +32,7 @@ Motor eşleşmesi:
 | Mod | Bağlantı | Akım ölçümü |
 |---|---|---|
 | Step | A sargısı HB1–HB2, B sargısı HB3–HB4 | A: RS1, B: RS2 |
-| BLDC | U=HB1, V=HB2, W=HB3 (HB4 boşta) | U ve W (V = −U−W) |
+| BLDC | U=HB1, V=HB2, W=HB3 (HB4 boşta) — **üç faz da U3'te, tek DRV8300 ile çalışır** | U ve W (V = −U−W) |
 | DC | 1–2 adet çift yönlü: HB1+HB2, HB3+HB4 | Her motor için bir shunt |
 
 ---
@@ -66,6 +66,7 @@ Motor eşleşmesi:
 | K4 | In-line akım ölçümü ve INA240A2 korunuyor | Kalite. Low-side + dahili OPAMP daha ucuz ama yüksek modülasyonda ölçüm penceresi daralıyor |
 | K5 | Bootstrap gate sürüşü (charge pump yok) | Tutma torku PWM ile üretiliyor (duruşta duty ≈ %42/%58), %100 duty gerekmiyor |
 | K6 | Kapasitör azaltarak maliyet düşürülmeyecek | EMI ve aşırı gerilim |
+| K7 | **Sürücü dağılımı: U3 = HB1+HB2+HB3, U4 = HB4** (2026-10-03) | BLDC kartı tek DRV8300 ile üretilebilsin (U4, Q7, Q8 ve HB4 parçaları DNP). Bedeli: step modunda B sargısının iki bacağı farklı entegrede (§4.2) |
 
 ### 3.2 Önerilen, onay bekleyen
 | # | Öneri | Not |
@@ -90,14 +91,17 @@ Motor eşleşmesi:
 ```
 48V ─ J1/J2 ─ Q10 ters polarite (P-FET + zener) ─ D1 TVS ─ C_BULK (100V) ─┬─ HB1..HB4 (Q1-Q8)
                                                                            │     └─ alt FET source'lari ─ RS3 (bara shunt) ─ GND
-                                                                           └─ U7 LM5163 ─ 12V ─┬─ U10 yuk anahtari ─ GVDD ─ U3/U4 DRV8300
+                                                                           └─ U7 LM5163 ─ 12V ─┬─ U10 yuk anahtari ─ GVDD ─ U3 (HB1-3) / U4 (HB4) DRV8300
                                                                                                └─ U8 LMR51430 ─ 3.3V ─ MCU, INA240, CAN, AS5047D
                                                                                                                   └─ FB1 ─ 3.3VA (ADC ref, INA240 REF1, encoder)
 ```
 
 ### 4.2 Gate driver yerleşimi (DRV8300)
-- **U3 = HB1 + HB2 (A sargısı), U4 = HB3 + HB4 (B sargısı).** Her sargının iki bacağı aynı entegrede olmalı: aynı entegre içinde kanallar arası gecikme eşleşmesi ±30 ns, iki entegre arasında ise 110 ns'ye kadar çıkabiliyor.
-- Kanal C her iki entegrede de boş. **Öneri:** U3 kanal C'den bir alt kanal çıkışını DNP bir FET'e ve direnç konnektörüne götürün; fren chopper ileride gerekirse kart değişmeden takılabilir.
+- **U3 = HB1 + HB2 + HB3, U4 = HB4 (K7).** BLDC'de U/V/W üç fazı aynı entegrede (kanallar arası gecikme eşleşmesi ±30 ns); BLDC varyantında U4 ve HB4 takılmaz.
+- **Bedeli:** step modunda B sargısı (HB3–HB4) iki entegreye bölünür; entegreler arası gecikme farkı 110 ns'ye kadar çıkabilir. 48 V / 30 kHz'te bu ~0.16 V ortalama gerilim hatası demek, büyük ölçüde sabit ofset; kapalı çevrim akım döngüsü (PI integratörü) telafi eder. Firmware'de dead-time kompanzasyonuna bacak başına ofset kalibrasyonu eklenmeli.
+- **U3 ve HB1–HB3 FET'leri** birlikte yerleşmeli; U4 HB4'ün yanında durur.
+- **Fren chopper (opsiyonel, DNP):** U4 kanal B alt çıkışı (GLB) → Q9 + J9; kontrol BRK_PWM (PB6, TIM8_CH1). U4 kanal C kullanılmıyor. BLDC varyantında (U4 yok) chopper da yoktur.
+- **BLDC varyantı DNP listesi:** U4, Q7, Q8, U4 GVDD kondansatörleri, HB4 gate ağı, HB4 bootstrap ve C_HB kondansatörleri. Şematikte bu parçalarda `Variant` alanı dolu. Firmware, U4 takılı değilken step modunu engellemeli.
 - GH/SH ve GL/GND döngüleri kısa olmalı. Bootstrap kondansatörü BSTx–SHx pinlerinin dibine konmalı. GVDD'ye ≥10 µF.
 - DRV8300'ün tek GND pini var (alt gate dönüşü de buradan). GND'yi alt FET source bölgesine kısa yoldan bağlayın; RS3 bara shunt'ının hangi tarafına referanslanacağını yerleşimde netleştirin (öneri: driver GND = RS3'ün GND tarafı, alt FET source'ları RS3'ün üst tarafı; gate dönüş yolu shunt üzerinden geçer ama düşüm mV mertebesinde).
 - Gate direnci: turn-on 33 Ω, turn-off 10 Ω + diyot. **FET'in kapanma süresi 150 ns'nin (min dead-time) altında kalmalı.** Turn-off direnci büyütülmemeli.
@@ -212,6 +216,7 @@ Yapılacaklar:
 - [ ] O1/O2 kararı: DRV8300 mü DRV8353 mü (DRV8353 fiyat/stok araştırması)
 - [ ] Bulk kapasitör ripple akımı hesabı (2 H-köprü, 5 A, 30 kHz)
 - [ ] Her parça için KiCad sembol + footprint (proje kütüphanesine, `${KIPRJMOD}` ile)
+- [ ] BLDC (tek sürücü) varyantı için ayrı BOM / montaj varyantı (K7)
 
 ---
 

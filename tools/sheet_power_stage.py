@@ -126,27 +126,41 @@ def driver(sh, ref, uref, dx, dy, phases, inputs, spare_c):
     return u
 
 
+VARIANT = {"Variant": "STEP/DC only - DNP on single-driver BLDC build"}
+
+
+def mark_variant(sh, n0):
+    for inst in sh.insts[n0:]:
+        if not inst.ref.startswith("#"):
+            inst.props.update(VARIANT)
+
+
 def build(sh, ref):
     # ---------------- gate drivers
     dx = 55.88
-    driver(sh, ref, "U3", dx, 73.66, [(1, "A"), (2, "B")],
+    driver(sh, ref, "U3", dx, 73.66, [(1, "A"), (2, "B"), (3, "C")],
            {"INHA": "PWM_H1", "INLA": "PWM_L1", "INHB": "PWM_H2", "INLB": "PWM_L2",
-            "INHC": "GND", "INLC": "BRK_PWM"},
-           {"BSTC": None, "GHC": None, "SHC": None, "GLC": "GL_BRK"})
-    driver(sh, ref, "U4", dx, 147.32, [(3, "A"), (4, "B")],
-           {"INHA": "PWM_H3", "INLA": "PWM_L3", "INHB": "PWM_H4", "INLB": "PWM_L4",
+            "INHC": "PWM_H3", "INLC": "PWM_L3"}, {})
+    n0 = len(sh.insts)
+    driver(sh, ref, "U4", dx, 147.32, [(4, "A")],
+           {"INHA": "PWM_H4", "INLA": "PWM_L4", "INHB": "GND", "INLB": "BRK_PWM",
             "INHC": "GND", "INLC": "GND"},
-           {"BSTC": None, "GHC": None, "SHC": None, "GLC": None})
+           {"BSTB": None, "GHB": None, "SHB": None, "GLB": "GL_BRK",
+            "BSTC": None, "GHC": None, "SHC": None, "GLC": None})
+    mark_variant(sh, n0)
     sh.box(15.24, 30.48, 96.52, 190.5, "GATE DRIVERS", BLUE)
-    sh.text("DRV8300D TSSOP: fixed 200 ns dead time + cross-conduction lockout.\n"
-            "MCU TIM1 DTG is a backup (50-100 ns).  CBST <= 1 uF.\n"
-            "U3 channel C: low side only -> optional brake chopper Q9 (DNP).",
+    sh.text("U3 = HB1+HB2+HB3 (BLDC U/V/W on one driver).\n"
+            "U4 = HB4 (+ optional brake chopper on ch. B).\n"
+            "BLDC build: U4, Q7, Q8 + HB4 parts DNP.\n"
+            "DRV8300D TSSOP: fixed 200 ns dead time + lockout.",
             17.78, 186.69, size=1.27)
     # ---------------- half bridges
     half_bridge(sh, ref, 1, 96.52, 33.02, shunt=("RS1", "U5", "MOT1", "ISENSE_A"))
     half_bridge(sh, ref, 2, 193.04, 33.02)
     half_bridge(sh, ref, 3, 96.52, 114.3, shunt=("RS2", "U6", "MOT3", "ISENSE_B"))
+    n0 = len(sh.insts)
     half_bridge(sh, ref, 4, 193.04, 114.3)
+    mark_variant(sh, n0)
     sh.box(101.6, 30.48, 295.91, 190.5, "HALF BRIDGES + IN-LINE CURRENT SENSE", RED)
     right_column(sh, ref)
 

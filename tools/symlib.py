@@ -130,8 +130,8 @@ def build(path):
     # DRV8300D, TSSOP-20 (PW) pinout, SLVSFG5D Figure 6-2
     syms.append(make_ic(
         "DRV8300DPW",
-        left=[("1", "INHA", "input"), ("4", "INLA", "input"), None,
-              ("2", "INHB", "input"), ("5", "INLB", "input"), None,
+        left=[("4", "INLA", "input"), ("1", "INHA", "input"), None,
+              ("5", "INLB", "input"), ("2", "INHB", "input"), None,
               ("6", "INLC", "input"), ("3", "INHC", "input"), None, None, None, None, None, None],
         right=[("20", "BSTA", "passive"), ("19", "GHA", "output"), ("18", "SHA", "passive"), ("11", "GLA", "output"), None,
                ("17", "BSTB", "passive"), ("16", "GHB", "output"), ("15", "SHB", "passive"), ("10", "GLB", "output"), None,

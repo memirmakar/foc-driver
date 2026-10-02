@@ -3,6 +3,9 @@
 Closed-loop FOC driver for 2-phase steppers, BLDC/PMSM and brushed DC motors.
 4 half-bridges (2× DRV8300 + CSD19534Q5A), 36–48 V, 5 A continuous, STM32G431RBT6, CAN-FD.
 
+Driver split: U3 drives HB1+HB2+HB3, U4 drives HB4. A BLDC-only board can be built with a single
+DRV8300 (U4, Q7, Q8 and the HB4 parts are DNP; they carry a `Variant` field in the schematic).
+
 | Path | Contents |
 |---|---|
 | `HANDOVER.md` | Rev B handover: decisions, layout guidance, firmware impacts |

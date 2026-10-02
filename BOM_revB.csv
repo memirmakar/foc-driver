@@ -1,8 +1,8 @@
 ﻿Ref,Parca,MPN,Adet,Birim USD (10 adet),Toplam USD,Fiyat kaynagi,Durum,Alternatif,Not
 U1,MCU,STM32G431RBT6,1,5.430,5.43,DigiKey (stok 6575); Farnell 4.79 EUR,DEGISTI (CBT6->RBT6),STM32G431CBT6 (pin yetmez),LQFP-64. 8 PWM + ABI/Hall + BKIN2 icin. Pin haritasi CubeMX'te yeniden yapilacak
 U2,Manyetik encoder,AS5047D-ATST-TSSOP14 (Infineon),1,6.800,6.80,DigiKey 1 adet fiyati (stok 4500),MPN GUNCELLENDI,AS5047P / MA732GQ-Z (dogruluk dusuk),"Artik Infineon markasiyla. Kart ALT yuzu, tam merkez"
-U3,3 faz gate driver #1,DRV8300DPWR,1,0.810,0.81,DigiKey (stok 6160); Ozdisan 0.47 USD talep,YENI (4x MIC4605 yerine),"DRV8353/DRV8350 (VDS korumali, degerlendirmede)",HB1+HB2 (A sargisi). Kanal C: yedek / opsiyonel chopper. Non-inverting INL
-U4,3 faz gate driver #2,DRV8300DPWR,1,0.810,0.81,DigiKey,YENI,DRV8353/DRV8350,HB3+HB4 (B sargisi). Kanal C yedek
+U3,3 faz gate driver #1,DRV8300DPWR,1,0.810,0.81,DigiKey (stok 6160); Ozdisan 0.47 USD talep,YENI (4x MIC4605 yerine),"DRV8353/DRV8350 (VDS korumali, degerlendirmede)",HB1+HB2+HB3 (BLDC U/V/W tek entegrede). Non-inverting INL. TSSOP-20
+U4,3 faz gate driver #2,DRV8300DPWR,1,0.810,0.81,DigiKey,YENI,DRV8353/DRV8350,"HB4 + kanal B: opsiyonel chopper. BLDC varyantinda DNP (Q7, Q8 ve HB4 parcalari ile birlikte)"
 U5,Akim sense A,INA240A2D,1,2.850,2.85,DigiKey (stok 7317),"AYNI PARCA, TEDARIKCI DEGISTI",INA240A2PWR TSSOP (Farnell 2.24 EUR),HB1 cikisi in-line. REF1 -> 3.3VA (dijital 3V3 degil)
 U6,Akim sense B,INA240A2D,1,2.850,2.85,DigiKey,AYNI,INA240A2PWR,HB3 cikisi in-line
 U7,48V->12V buck (100V),LM5163DDAR,1,2.250,2.25,DigiKey (stok 0!),DEGISTI (LMR38010 80V abs max yetersiz),"LMR38010SDDAR (DK 2.22, stok 615) - sadece TVS revize edilirse",Sembol cizilecek. GVDD + 3.3V buck besler

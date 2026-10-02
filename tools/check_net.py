@@ -56,14 +56,16 @@ def comps_on(name):
 
 
 # ---- PWM: MCU -> DRV8300
+# U3 = HB1/HB2/HB3 (BLDC on one driver), U4 = HB4 + brake chopper on channel B
 for mpin, drv, dpin in [(42, "U3", 1), (35, "U3", 4), (43, "U3", 2), (36, "U3", 5),
-                        (44, "U4", 1), (37, "U4", 4), (45, "U4", 2), (23, "U4", 5), (59, "U3", 6)]:
+                        (44, "U3", 3), (37, "U3", 6), (45, "U4", 1), (23, "U4", 4), (59, "U4", 5)]:
     same(("U1", mpin), (drv, dpin), msg="PWM U1.%d" % mpin)
-on("U3", 3, "GND"); on("U4", 3, "GND"); on("U4", 6, "GND")
+on("U4", 2, "GND"); on("U4", 3, "GND"); on("U4", 6, "GND")
+on("U4", 10, "GL_BRK")
 on("U3", 7, "GVDD"); on("U4", 7, "GVDD"); on("U3", 8, "GND"); on("U4", 8, "GND")
 # ---- half bridges: driver SH = high-FET source = low-FET drain ; BST cap across BST-SH
 legs = [("U3", 20, 19, 18, 11, "Q1", "Q2"), ("U3", 17, 16, 15, 10, "Q3", "Q4"),
-        ("U4", 20, 19, 18, 11, "Q5", "Q6"), ("U4", 17, 16, 15, 10, "Q7", "Q8")]
+        ("U3", 14, 13, 12, 9, "Q5", "Q6"), ("U4", 20, 19, 18, 11, "Q7", "Q8")]
 for drv, bst, gh, shp, gl, qh, ql in legs:
     same((drv, shp), (qh, 1), (ql, 5), msg="phase " + qh)
     on(qh, 5, "VBUS")
@@ -107,7 +109,7 @@ same(("U1", 11), ("U11", 1), msg="ENABLE -> PC3 (BKIN2) + AND")
 same(("U1", 22), ("U11", 2), msg="MCU_EN")
 same(("U11", 4), ("Q13", 1), msg="GVDD_EN -> Q13 gate")
 on("Q12", 2, "+12V"); on("Q12", 3, "GVDD")
-same(("Q12", 1), ("Q13", 3), msg="Q12 gate pulled by Q13") if False else None
+
 # ---- supplies
 on("U7", 2, "VBUS"); on("U7", 3, "VBUS"); on("U8", 3, "+12V"); on("U12", 1, "+5V"); on("U12", 5, "+3V3")
 for p in (16, 32, 48, 64, 1):

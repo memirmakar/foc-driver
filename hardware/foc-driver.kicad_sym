@@ -80,24 +80,6 @@
 			(pin input line
 				(at -12.7 16.51 0)
 				(length 2.54)
-				(name "INHA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 13.97 0)
-				(length 2.54)
 				(name "INLA"
 					(effects
 						(font
@@ -114,16 +96,34 @@
 				)
 			)
 			(pin input line
-				(at -12.7 8.89 0)
+				(at -12.7 13.97 0)
 				(length 2.54)
-				(name "INHB"
+				(name "INHA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 8.89 0)
+				(length 2.54)
+				(name "INLB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -134,14 +134,14 @@
 			(pin input line
 				(at -12.7 6.35 0)
 				(length 2.54)
-				(name "INLB"
+				(name "INHB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
